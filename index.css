@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles previously in index.html */
+body {
+  overflow: hidden;
+  touch-action: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Pacifico', cursive;
+}
+
+.game-container {
+  touch-action: none;
+}
